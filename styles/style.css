@@ -38,7 +38,8 @@ nav {
     font-weight: 800;
 }
 
-.logo-menu, ul {
+.logo-menu,
+ul {
     display: flex;
 }
 
@@ -68,7 +69,7 @@ a {
     background-image: url(../Images/Group\ 13\ \(1\)\ \(1\).png);
     width: 1170px;
     height: 500px;
-    margin: 50px auto 100px;
+    margin: 50px auto 0px;
     border-radius: 16px;
 }
 
@@ -107,11 +108,11 @@ a {
 }
 
 .input-content {
-     display: flex;
-     gap: 24px; 
+    display: flex;
+    gap: 24px;
 }
 
-.input-conteiner{
+.input-conteiner {
     display: flex;
     padding-top: 64px;
     gap: 24px;
@@ -119,3 +120,233 @@ a {
 }
 
 /* end header section style */
+
+/* started our popular tours section style */
+
+.banner {
+    display: flex;
+    width: 1440px;
+    margin: 100px auto 0;
+}
+
+.banner-title ul {
+    display: grid;
+    grid-template-columns: 1fr;
+    row-gap: 24px;
+}
+
+.banner-hadding {
+    color: #131318;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.banner-description {
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 16px;
+    font-weight: 400;
+    padding-top: 24px;
+}
+
+.banner-description ul {
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.banner-description-info {
+    color: #5A5A5D;
+    font-size: 16px;
+    font-weight: 400;
+    padding-top: 24px;
+}
+
+.main-button {
+    border-radius: 8px;
+    background: #FF5400;
+    border: 0;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 800;
+    margin-top: 46px;
+    padding: 14px 34px;
+}
+
+/*img-content-style*/
+
+.img-content {
+    margin-top: 48px;
+}
+
+.img-container {
+    width: 1440px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.img-container h1 {
+    color: #131318;
+    font-size: 40px;
+    font-weight: 800;
+    margin-top: 100px;
+}
+
+.img-container p {
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.img-content-info {
+    display: flex;
+    justify-content: center;
+    column-gap: 24px;
+    margin-bottom: 24px;
+}
+
+.grid-item {
+    display: flex;
+    justify-content: center;
+    column-gap: 24px;
+    margin-bottom: 24px;
+}
+
+.grid-item-img {
+    display: flex;
+    justify-content: center;
+    column-gap: 24px;
+}
+
+.info-title h1 {
+    color: #131318;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.info-title p {
+    color: rgba(19, 19, 24, 0.70);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.box-1 img {
+    width: 64px;
+    height: 64px;
+}
+
+.box-2 img,
+.box-3 img {
+    width: 64px;
+    height: 64px;
+}
+
+.box-1 {
+    padding: 32px 55px 32px 32px;
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+}
+
+.box-2 {
+    padding: 32px 55px 32px 32px;
+    border-radius: 16px;
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+}
+
+.box-3 {
+    padding: 32px 55px 32px 32px;
+}
+
+.box-1 h3,
+.box-2 h3,
+.box-3 h3 {
+    color: #131318;
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.box-1 p,
+.box-2 p,
+.box-3 p {
+    width: 486px;
+    color: #5A5A5D;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.box {
+    margin-top: 48px;
+    width: 1440;
+    background: #FFF;
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+}
+
+.box-num {
+    text-align: center;
+    width: 573px;
+    margin: 24px auto;
+    border-radius: 16px;
+    border: 1px solid rgba(233, 68, 68, 0.20);
+    background: rgba(233, 68, 68, 0.05);
+}
+
+/* News letter section styles */
+
+.Newsletter-section h3 {
+    color: #131318;
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.Newsletter-section p {
+    color: #5A5A5D;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.Newsletter-form input {
+    border-radius: 8px;
+    background: rgba(19, 19, 24, 0.05);
+    color: rgba(19, 19, 24, 0.30);
+    font-size: 16px;
+    font-weight: 400;
+    padding: 16px 200px 16px 20px;
+}
+.input-1{
+    margin-top: 24px;
+}
+.input-2{
+    margin-top: 16px;
+}
+.Newsletter-section {
+    border-radius: 16px;
+    border: 1px solid #FF5400;
+    padding: 41px;
+}
+
+.Subscribe-btn {
+    border-radius: 8px;
+    background: #FF5400;
+    border: 0;
+    font-size: 20px;
+    color: #FFFFFF;
+    padding: 14px 148px;
+    margin-top: 24px;
+}
+.newsletter-img img{
+    width: 672px;
+    height: 422px;
+}
+.newsletter-title{
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    margin-top: 100px;
+}
+/* end newsletter section styles */
