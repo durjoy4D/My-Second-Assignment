@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;1,100;1,400;1,900&family=Mulish:wght@200;300;400;500;600;700;800;900&family=Work+Sans:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+* {
+    font-family: 'Mulish', sans-serif;
+}
+
+/* nav section style */
+
+nav {
+    margin: 0 auto;
+    width: 1440px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #FFF;
+}
+
+.logo-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-content img {
+    width: 48px;
+    height: 56px;
+}
+
+.title-1 {
+    font-size: 36px;
+    font-weight: 800;
+    color: #131318;
+}
+
+.title-2 {
+    color: #FF5400;
+    font-size: 36px;
+    font-weight: 800;
+}
+
+.logo-menu, ul {
+    display: flex;
+}
+
+.logo-menu li {
+    list-style: none;
+    margin-right: 44px;
+}
+
+.logo-menu,
+a {
+    text-decoration: none;
+    color: #424247;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.title-3 {
+    color: #FF5400;
+    font-weight: 700;
+}
+
+/* nav section end */
+
+/* start header section style */
+
+.section-img {
+    background-image: url(../Images/Group\ 13\ \(1\)\ \(1\).png);
+    width: 1170px;
+    height: 500px;
+    margin: 50px auto 100px;
+    border-radius: 16px;
+}
+
+.section-title {
+    color: #FFF;
+    font-size: 64px;
+    font-weight: 800;
+    text-align: center;
+    padding-top: 106px;
+}
+
+.section-description {
+    color: #FFF;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    width: 676px;
+    margin: 0 auto;
+}
+
+.section-content {
+    border-radius: 8px;
+    background: #FFF;
+    padding: 16px;
+}
+
+.primery-button {
+    border-radius: 8px;
+    background: #FF5400;
+    border: 0;
+    padding: 16px 80px 16px 80px;
+    color: #FFF;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.input-content {
+     display: flex;
+     gap: 24px; 
+}
+
+.input-conteiner{
+    display: flex;
+    padding-top: 64px;
+    gap: 24px;
+    margin-left: 120px;
+}
+
+/* end header section style */
